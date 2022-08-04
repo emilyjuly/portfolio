@@ -31,12 +31,16 @@ export const Container = styled.section`
     transition: 0.5s;
 
     &: hover {
-      background: ${({ theme }) => darken(0.05, theme.primary)};
+      background: ${({ theme }) => darken(0.05, theme.secondary)};
+
+      > a {
+        color: ${({ theme }) => darken(0.05, theme.primary)};
+      }
     }
 
     a {
       text-transform: uppercase;
-      color: #fff;
+      color: ${({ theme }) => darken(0.05, theme.secondary)};
       font-size: 1.5rem;
       font-weight: 300;
     }
