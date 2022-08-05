@@ -5,6 +5,7 @@ import { HomeHero } from '../../components/Header/HomeHero';
 import Experiencias from '../../components/Experiencias';
 import Projetos from '../../components/Projetos';
 import { Conhecimentos } from '../../components/Conhecimentos';
+import { FormContato } from '../../components/FormContato';
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <Experiencias />
         <Projetos />
         <Conhecimentos />
+        <FormContato />
       </main>
     </HomeContainer>
   );
