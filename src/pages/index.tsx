@@ -6,6 +6,7 @@ import Experiencias from '../../components/Experiencias';
 import Projetos from '../../components/Projetos';
 import { Conhecimentos } from '../../components/Conhecimentos';
 import { FormContato } from '../../components/FormContato';
+import Footer from '../../components/Footer';
 
 export default function Home() {
   return (
@@ -19,6 +20,8 @@ export default function Home() {
         <Conhecimentos />
         <FormContato />
       </main>
+
+      <Footer />
     </HomeContainer>
   );
 }
