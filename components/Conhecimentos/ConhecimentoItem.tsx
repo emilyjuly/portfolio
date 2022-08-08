@@ -8,7 +8,7 @@ interface ConhecimentosProps {
 
 export default function ConhecimentoItem({ title, icon }: ConhecimentosProps) {
   return (
-    <ConhecimentoContainer>
+    <ConhecimentoContainer data-aos="fade-up">
       <p>{title}</p>
       {icon}
     </ConhecimentoContainer>

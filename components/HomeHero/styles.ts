@@ -91,7 +91,7 @@ export const CodeItem = styled.pre`
   color: #fff;
   width: 30rem;
   align-self: flex-start;
-  transition: 1s;
+  transition: 1s !important;
   letter-spacing: 0.1px;
 
   @media (max-width: 1450px) {

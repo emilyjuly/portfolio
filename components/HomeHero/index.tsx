@@ -3,7 +3,7 @@ import picture from '../../src/img/Perfil.jpeg';
 
 export function HomeHero() {
   return (
-    <Container>
+    <Container data-aos="fade-up">
       <img src={picture} alt="My photo" />
       <div>
         <TextContainer>
@@ -11,7 +11,7 @@ export function HomeHero() {
           <h2>Me chamo Emily July</h2>
         </TextContainer>
         <InfosContainer>
-          <CodeItem>
+          <CodeItem data-aos="zoom-in">
             <span className="comment">// Buscando por vagas como</span>
             <span className="purple">Infos</span> {'\u007B'}
             <div>
@@ -22,7 +22,7 @@ export function HomeHero() {
             </div>
             {'\u007B'}
           </CodeItem>
-          <CodeItem>
+          <CodeItem data-aos="zoom-in">
             <span className="purple">Experiência</span> {'\u007B'}
             <div>
               Cargo: <span className="blue">Suporte técnico II,</span>
