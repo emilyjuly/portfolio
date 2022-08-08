@@ -13,7 +13,7 @@ export function Header() {
       <ul>
         <NavLink title="Home" path="/" />
         <Image src={casa} alt="Picture of a home" width={20} height={20} />
-        <NavLink title="Projetos" path="/project" />
+        <NavLink title="Projetos" path="/projetos" />
         <Image src={pasta} alt="Picture of a folder" width={20} height={20} />
       </ul>
     </Container>
