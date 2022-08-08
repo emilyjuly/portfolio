@@ -10,6 +10,7 @@ import Footer from '../../components/Footer';
 import { useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import Head from 'next/head';
 
 export default function Home() {
   useEffect(() => {
@@ -17,6 +18,20 @@ export default function Home() {
   }, []);
   return (
     <HomeContainer>
+      <Head>
+        <title>Portfolio | Home</title>
+        <meta
+          name="description"
+          content="Sou uma desenvolvedora frontend junior, e uso esse espaço para contar sobre mim e apresentar meus projetos."
+        />
+        <meta property="og:image" content="/ogimage.png" />
+        <meta name="twitter:image" content="/ogimage.png" />
+        <meta name="twitter:image:src" content="/ogimage.png" />
+        <meta
+          property="og:description"
+          content="Sou uma desenvolvedora frontend junior, e uso esse espaço para contar sobre mim e apresentar meus projetos"
+        />
+      </Head>
       <Header />
 
       <main className="container">

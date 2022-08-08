@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import BannerProjeto from '../../../../components/BannerProjeto';
 import { Header } from '../../../../components/Header';
 import { ProjetoContainer } from '../../../styles/ProjetoStyle';
@@ -6,6 +7,20 @@ export default function Projeto() {
   return (
     <ProjetoContainer>
       <Header />
+      <Head>
+        <title>Portfolio | Projetos</title>
+        <meta
+          name="description"
+          content="Sou uma desenvolvedora frontend junior, e uso esse espaço para contar sobre mim e apresentar meus projetos."
+        />
+        <meta property="og:image" content="/ogimage.png" />
+        <meta name="twitter:image" content="/ogimage.png" />
+        <meta name="twitter:image:src" content="/ogimage.png" />
+        <meta
+          property="og:description"
+          content="Sou uma desenvolvedora frontend junior, e uso esse espaço para contar sobre mim e apresentar meus projetos"
+        />
+      </Head>
       <BannerProjeto
         title="Projeto 01"
         type="Website"
