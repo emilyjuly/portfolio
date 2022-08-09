@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 interface ProjetoItemProps {
   title: string;
-  type: string;
+  type?: string;
   imgUrl: string;
   slug: string;
 }

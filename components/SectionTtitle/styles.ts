@@ -18,6 +18,11 @@ export const Container = styled.div`
     font-size: 3.5rem;
   }
 
+  h3 {
+    font-size: 1rem;
+    color: ${({ theme }) => theme.primary};
+  }
+
   @media (max-width: 1000px) {
     h1 {
       font-size: 2.5rem;

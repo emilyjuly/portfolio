@@ -2,6 +2,9 @@ import Head from 'next/head';
 import BannerProjeto from '../../../../components/BannerProjeto';
 import { Header } from '../../../../components/Header';
 import { ProjetoContainer } from '../../../styles/ProjetoStyle';
+import todolistbanner from '../../../img/todolistbanner.png';
+import justcatsbanner from '../../../img/justcatsbanner.png';
+import flexturismosbanner from '../../../img/flexturismosbanner.png';
 
 export default function Projeto() {
   return (
@@ -21,27 +24,64 @@ export default function Projeto() {
           content="Sou uma desenvolvedora frontend junior, e uso esse espaço para contar sobre mim e apresentar meus projetos"
         />
       </Head>
-      <BannerProjeto
-        title="Projeto 01"
-        type="Website"
-        imgUrl="https://todoist.com/static/home/features/clear-your-mind-1008.jpg"
-      />
+      <BannerProjeto title="To-do list" imgUrl={todolistbanner} />
 
       <main>
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
-          nisi aspernatur aut veniam sed non, molestiae veritatis eaque magnam
-          sit voluptas ratione eos eveniet ducimus mollitia reiciendis
-          temporibus fugiat, enim tempore consequatur quas! Dignissimos natus
-          voluptatem nulla, dolore distinctio sequi quae aperiam minus molestiae
-          dolores obcaecati, voluptate quisquam at consequuntur perspiciatis
-          sapiente reprehenderit? Harum eaque explicabo obcaecati soluta quas
-          minima autem alias culpa magni, eligendi libero aliquid voluptates
-          delectus labore enim incidunt aperiam quisquam numquam, placeat veniam
-          possimus doloremque optio?
+          Uma simples lista de tarefas, feita com ReactJS. Com as seguintes
+          funcionalidades: Adicionar uma tarefa, remover uma tarefa e verificar
+          os detalhes da tarefa - função ainda em implementação. Essa lista de
+          tarefas puxa tarefas de uma API, para não ficar vazia, mas basta
+          excluir as tarefas que não desejar. Acesse o repositório do projeto
+          <a href="https://github.com/emilyjuly/TODOlist" target="_blank">
+            {' '}
+            aqui.
+          </a>
         </p>
         <button type="button">
-          <a href="#">Acesse o projeto online</a>
+          <a href="https://emilyjuly.github.io/TODOlist/" target="_blank">
+            Acesse o projeto online
+          </a>
+        </button>
+      </main>
+
+      <BannerProjeto title="Just cats" imgUrl={justcatsbanner} />
+
+      <main>
+        <p>
+          Uma página feita com HTML, CSS e Javascript, para treinar a integração
+          de API com o Javascript. Essa página consome uma API de fotos fofas de
+          gatinhos. As fotos mudam ao clicar no botão "Change cat". Acesse o
+          repositório do projeto clicando
+          <a href="https://github.com/emilyjuly/Just_cats" target="_blank">
+            {' '}
+            aqui.
+          </a>
+        </p>
+        <button type="button">
+          <a href="https://emilyjuly.github.io/Just_cats/" target="_blank">
+            Acesse o projeto online
+          </a>
+        </button>
+      </main>
+
+      <BannerProjeto title="Flex turismos" imgUrl={flexturismosbanner} />
+
+      <main>
+        <p>
+          Uma página feita com o intuito de treinar os conceitos de flex box com
+          CSS. Projeto totalmente responsivo, usando flex box. Esse projeto não
+          tem nenhuma interação, foi feito apenas com o objetivo de praticar os
+          conceitos de flex box. Acesse o repositório do projeto clicando
+          <a href="https://github.com/emilyjuly/Flex_turismos" target="_blank">
+            {' '}
+            aqui.
+          </a>
+        </p>
+        <button type="button">
+          <a href="https://emilyjuly.github.io/Flex_turismos/" target="_blank">
+            Acesse o projeto online
+          </a>
         </button>
       </main>
     </ProjetoContainer>

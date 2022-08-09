@@ -2,7 +2,7 @@ import { Container } from './styles';
 
 interface BannerProjetoProps {
   title: string;
-  type: string;
+  type?: string;
   imgUrl: string;
 }
 

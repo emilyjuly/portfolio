@@ -2,6 +2,9 @@ import Head from 'next/head';
 import { Header } from '../../../components/Header';
 import ProjetoItem from '../../../components/ProjetoPage/index';
 import { ProjetosContainer } from '../../styles/ProjetosStyles';
+import todolist from '../../img/todolist.png';
+import justcats from '../../img/justcats.png';
+import flexturismos from '../../img/flexturismos.png';
 
 export default function Projetos() {
   return (
@@ -22,12 +25,9 @@ export default function Projetos() {
             content="Nesta seção eu mostro alguns de meus principais projetos já realizados durante minha trajetória."
           />
         </Head>
-        <ProjetoItem
-          title="Projeto 01"
-          type="Website"
-          slug="teste"
-          imgUrl="https://todoist.com/static/home/features/clear-your-mind-1008.jpg"
-        />
+        <ProjetoItem title="To-do list" slug="teste" imgUrl={todolist} />
+        <ProjetoItem title="Just cats" slug="teste" imgUrl={justcats} />
+        <ProjetoItem title="Flex turismos" slug="teste" imgUrl={flexturismos} />
       </main>
     </ProjetosContainer>
   );

@@ -2,6 +2,9 @@ import SectionTitle from '../SectionTtitle';
 import ProjetoItem from './ProjetoItem';
 import { Container } from './styles';
 import Link from 'next/Link';
+import todolist from '../../src/img/todolist.png';
+import justcats from '../../src/img/justcats.png';
+import flexturismos from '../../src/img/flexturismos.png';
 
 export function Projetos() {
   return (
@@ -10,22 +13,22 @@ export function Projetos() {
 
       <section>
         <ProjetoItem
-          img="https://todoist.com/_next/static/images/favorites-mobile@2x_dcc98b6b6c927554d250a739f6dfc02b.png"
-          title="Projeto 01"
-          type="Website"
-          slug="teste"
+          img={todolist}
+          title="To-do list"
+          type="Aplicação"
+          slug="todolist"
         />
         <ProjetoItem
-          img="https://todoist.com/_next/static/images/favorites-mobile@2x_dcc98b6b6c927554d250a739f6dfc02b.png"
-          title="Projeto 01"
+          img={justcats}
+          title="Just cats"
           type="Website"
-          slug="teste"
+          slug="justcats"
         />
         <ProjetoItem
-          img="https://todoist.com/_next/static/images/favorites-mobile@2x_dcc98b6b6c927554d250a739f6dfc02b.png"
-          title="Projeto 01"
+          img={flexturismos}
+          title="Flex Turismos"
           type="Website"
-          slug="teste"
+          slug="flex turismos"
         />
       </section>
       <button type="button">

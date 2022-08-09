@@ -18,6 +18,7 @@ export function FormContato() {
             Prencha o formulário abaixo que
             <br />
             irei retornar em breve
+            <h3>Os campos com * são obrigatórios</h3>
           </>
         }
       />

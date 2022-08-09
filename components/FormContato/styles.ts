@@ -55,6 +55,7 @@ export const Input = styled.input`
     outline: none;
     transition: 0.5s;
 
+
     &:focus {
         border-color: ${({ theme }) => theme.secondary};
     }

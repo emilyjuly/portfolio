@@ -17,6 +17,10 @@ export const ProjetoContainer = styled.div`
       color: ${({ theme }) => theme.secondary};
       font-size: 1.5rem;
       text-align: justify;
+
+      > a {
+        color: ${({ theme }) => theme.primary};
+      }
     }
 
     button {

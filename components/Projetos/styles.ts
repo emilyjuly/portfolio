@@ -78,7 +78,7 @@ export const ProjetoContainer = styled.div<ProjetoProps>`
   }
 
   > button {
-    height: 4rem;
+    height: 3rem;
     margin: 0 0 3rem 5rem;
     background: none;
     border: none;
