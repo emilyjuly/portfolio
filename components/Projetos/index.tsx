@@ -1,7 +1,7 @@
 import SectionTitle from '../SectionTtitle';
 import ProjetoItem from './ProjetoItem';
 import { Container } from './styles';
-import Link from 'next/Link';
+import Link from 'next/link';
 import todolist from '../../src/img/todolist.png';
 import justcats from '../../src/img/justcats.png';
 import flexturismos from '../../src/img/flexturismos.png';
