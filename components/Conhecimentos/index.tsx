@@ -5,7 +5,7 @@ import {
   SiJavascript,
   SiCss3,
   SiHtml5
-} from 'react-icons/Si';
+} from 'react-icons/si';
 import SectionTitle from '../SectionTtitle';
 import ConhecimentoItem from './ConhecimentoItem';
 import { Container } from './styles';

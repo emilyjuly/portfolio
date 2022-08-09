@@ -8,6 +8,9 @@ export const Container = styled.section`
   justify-content: center;
   margin-top: 5rem;
 
+  padding-bottom: 8rem;
+  border-bottom: 3px solid ${({ theme }) => theme.primary};
+
   > img {
     width: 25rem;
     flex: 1;

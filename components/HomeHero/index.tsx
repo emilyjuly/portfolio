@@ -1,5 +1,5 @@
 import { Container, TextContainer, InfosContainer, CodeItem } from './styles';
-import picture from '../../src/img/Perfil.jpeg';
+import picture from '../../src/img/perfil.jpeg';
 
 export function HomeHero() {
   return (
@@ -20,7 +20,7 @@ export function HomeHero() {
             <div>
               Nível: <span className="blue">Júnior</span>
             </div>
-            {'\u007B'}
+            {'\u007D'}
           </CodeItem>
           <CodeItem data-aos="zoom-in">
             <span className="purple">Experiência</span> {'\u007B'}
@@ -35,7 +35,7 @@ export function HomeHero() {
                 </span>
               </div>
             </div>
-            {'\u007B'}
+            {'\u007D'}
             <span className="secondComment">
               /* Estou em transição de carreira */
             </span>

@@ -1,11 +1,9 @@
-import { ReactNode } from 'react';
 import Image from 'next/image';
 
 import NavLink from './NavLink';
 import { Container } from './styles';
 import casa from './../../src/img/casa.png';
 import pasta from './../../src/img/pasta.png';
-import styled from 'styled-components';
 
 export function Header() {
   return (

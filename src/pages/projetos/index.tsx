@@ -25,9 +25,13 @@ export default function Projetos() {
             content="Nesta seção eu mostro alguns de meus principais projetos já realizados durante minha trajetória."
           />
         </Head>
-        <ProjetoItem title="To-do list" slug="teste" imgUrl={todolist} />
-        <ProjetoItem title="Just cats" slug="teste" imgUrl={justcats} />
-        <ProjetoItem title="Flex turismos" slug="teste" imgUrl={flexturismos} />
+        <ProjetoItem title="To-do list" slug="todolist" imgUrl={todolist} />
+        <ProjetoItem title="Just cats" slug="justcats" imgUrl={justcats} />
+        <ProjetoItem
+          title="Flex turismos"
+          slug="flexturismos"
+          imgUrl={flexturismos}
+        />
       </main>
     </ProjetosContainer>
   );

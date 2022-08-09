@@ -12,6 +12,9 @@ export const Container = styled.section`
   align-items: center;
   gap: 5rem;
 
+  padding-bottom: 8rem;
+  border-bottom: 3px solid ${({ theme }) => theme.primary};
+
   > section {
     width: 100%;
     display: flex;
@@ -24,25 +27,42 @@ export const Container = styled.section`
   }
 
   > button {
-    background: ${({ theme }) => theme.primary};
-    padding: 0.8rem 3rem;
-    border-radius: 0.5rem;
-    border: none;
-    transition: 0.5s;
+    width: 15rem;
+    height: 3rem;
+    border-radius: 30em;
+    font-size: 15px;
+    font-family: inherit;
+    border-color: ${({ theme }) => theme.primary};
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
 
-    &: hover {
-      background: ${({ theme }) => darken(0.05, theme.secondary)};
+    &::before {
+      content: '';
+      width: 0;
+      height: 3em;
+      border-radius: 30em;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-image: linear-gradient(
+        90deg,
+        hsla(151, 89%, 89%, 1) 0%,
+        hsla(190, 57%, 77%, 1) 50%,
+        hsla(238, 54%, 81%, 1) 100%
+      );
 
-      > a {
-        color: ${({ theme }) => darken(0.05, theme.primary)};
-      }
+      transition: 0.5s ease;
+      display: block;
+      z-index: -1;
     }
 
-    a {
-      text-transform: uppercase;
-      color: ${({ theme }) => darken(0.05, theme.secondary)};
-      font-size: 1.5rem;
-      font-weight: 300;
+    &:hover::before {
+      width: 15rem;
+    }
+
+    > a {
+      color: ${({ theme }) => theme.secondary};
     }
 
     @media (max-width: 500px) {

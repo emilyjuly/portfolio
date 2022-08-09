@@ -17,7 +17,7 @@ function Experiencias() {
         <ExperienciaItem
           title="Objetivo"
           description="O que eu quero?"
-          text="Busco minha primeira oportunidade como desenvolvedora Fron-end Júnior, para colocar minhas habilidades em prática e desenvolver aplicações inteligentes, acessíveis e intuitivas."
+          text="Busco minha primeira oportunidade como desenvolvedora Front-end Júnior, para colocar minhas habilidades em prática e desenvolver aplicações inteligentes, acessíveis e intuitivas."
         />
         <ExperienciaItem
           title="Motivação"

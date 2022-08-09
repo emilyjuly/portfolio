@@ -11,6 +11,9 @@ export const Container = styled.section`
     justify-content: center;
     gap: 8rem;
 
+    padding-bottom: 8rem;
+    border-bottom: 3px solid ${({ theme }) => theme.primary};
+
     @media (max-width: 1000px) {
       gap: 5rem;
     }

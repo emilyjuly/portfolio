@@ -1,7 +1,7 @@
 import SectionTitle from '../SectionTtitle';
 import ProjetoItem from './ProjetoItem';
 import { Container } from './styles';
-import Link from 'next/Link';
+import Link from 'next/link';
 import todolist from '../../src/img/todolist.png';
 import justcats from '../../src/img/justcats.png';
 import flexturismos from '../../src/img/flexturismos.png';
@@ -12,22 +12,11 @@ export function Projetos() {
       <SectionTitle title="Últimos projetos" />
 
       <section>
-        <ProjetoItem
-          img={todolist}
-          title="To-do list"
-          type="Aplicação"
-          slug="todolist"
-        />
-        <ProjetoItem
-          img={justcats}
-          title="Just cats"
-          type="Website"
-          slug="justcats"
-        />
+        <ProjetoItem img={todolist} title="To-do list" slug="todolist" />
+        <ProjetoItem img={justcats} title="Just cats" slug="justcats" />
         <ProjetoItem
           img={flexturismos}
           title="Flex Turismos"
-          type="Website"
           slug="flex turismos"
         />
       </section>
