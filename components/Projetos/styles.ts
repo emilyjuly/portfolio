@@ -190,7 +190,7 @@ export const ProjetoContainer = styled.div<ProjetoProps>`
 
     > button {
       position: absolute;
-      botton: 1rem;
+      bottom: 1rem;
       right: 1rem;
       margin: 0;
     }
@@ -204,13 +204,13 @@ export const ProjetoContainer = styled.div<ProjetoProps>`
         > div.text {
           left: 1rem;
           top: 1rem;
-          tex-align: left;
+          text-align: left;
         }
       }
 
       > button {
         position: absolute;
-        botton: 1rem;
+        bottom: 1rem;
         right: 1rem;
         margin: 0;
       }

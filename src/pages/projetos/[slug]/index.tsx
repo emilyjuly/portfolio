@@ -5,6 +5,7 @@ import { ProjetoContainer } from '../../../styles/ProjetoStyle';
 import todolistbanner from '../../../img/todolistbanner.png';
 import justcatsbanner from '../../../img/justcatsbanner.png';
 import flexturismosbanner from '../../../img/flexturismosbanner.png';
+import upsidedown from '../../../img/upsidedownbanner.png';
 
 export default function Projeto() {
   return (
@@ -80,6 +81,29 @@ export default function Projeto() {
         </p>
         <button type="button">
           <a href="https://emilyjuly.github.io/Flex_turismos/" target="_blank">
+            Acesse o projeto online
+          </a>
+        </button>
+      </main>
+
+      <BannerProjeto title="Upside Down" imgUrl={upsidedown} />
+
+      <main>
+        <p>
+          Uma landing page feita com o tema da série da Netflix Stranger Things.
+          Apenas para exercitar HTML, CSS e JavaScript. A página também tem um
+          formulário que está conectado a um banco de dados feito com o Firebase
+          do Google. Ao clicar no botão "Inverter Mundos" você pode se aventurar
+          no mundo invertido. Essa página tem música, basta clicar em qualquer
+          lugar que irá começar a tocar. Acesse o repositório do projeto
+          clicando
+          <a href="https://github.com/emilyjuly/upsidedown" target="_blank">
+            {' '}
+            aqui.
+          </a>
+        </p>
+        <button type="button">
+          <a href="https://upsidedown-liard.vercel.app" target="_blank">
             Acesse o projeto online
           </a>
         </button>

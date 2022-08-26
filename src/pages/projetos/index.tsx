@@ -5,6 +5,7 @@ import { ProjetosContainer } from '../../styles/ProjetosStyles';
 import todolist from '../../img/todolist.png';
 import justcats from '../../img/justcats.png';
 import flexturismos from '../../img/flexturismos.png';
+import upsidedown from '../../img/upsidedown.png';
 
 export default function Projetos() {
   return (
@@ -31,6 +32,11 @@ export default function Projetos() {
           title="Flex turismos"
           slug="flexturismos"
           imgUrl={flexturismos}
+        />
+        <ProjetoItem
+          title="Upside Down"
+          slug="upsidedown"
+          imgUrl={upsidedown}
         />
       </main>
     </ProjetosContainer>

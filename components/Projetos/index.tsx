@@ -5,6 +5,7 @@ import Link from 'next/link';
 import todolist from '../../src/img/todolist.png';
 import justcats from '../../src/img/justcats.png';
 import flexturismos from '../../src/img/flexturismos.png';
+import upsidedown from '../../src/img/upsidedown.png';
 
 export function Projetos() {
   return (
@@ -19,6 +20,7 @@ export function Projetos() {
           title="Flex Turismos"
           slug="flex turismos"
         />
+        <ProjetoItem img={upsidedown} title="Upside Down" slug="upsidedown" />
       </section>
       <button type="button">
         <Link href="/projetos">
