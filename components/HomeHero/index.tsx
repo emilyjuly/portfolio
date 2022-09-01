@@ -15,7 +15,7 @@ export function HomeHero() {
             <span className="comment">// Quem sou eu?</span>
             <span className="purple">Infos</span> {'\u007B'}
             <div>
-              Função: <span className="blue">Desenvolvedora Front-end.,</span>
+              Função: <span className="blue">Desenvolvedora Front-end,</span>
             </div>
             <div>
               Nível: <span className="blue">Júnior</span>
