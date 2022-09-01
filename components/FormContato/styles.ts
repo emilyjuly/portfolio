@@ -1,4 +1,3 @@
-import { darken } from 'polished';
 import styled from 'styled-components';
 
 export const Container = styled.section``;
@@ -7,7 +6,7 @@ export const FormContainer = styled.form`
   margin-top: 8rem;
   width: 100%;
   display: grid;
-  gid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 1rem;
 
   > button {
@@ -65,61 +64,60 @@ export const FormContainer = styled.form`
 `;
 
 export const Input = styled.input`
-    height: 3rem;
-    width: 100%
-    background: ${({ theme }) => theme.inputBackground};
-    border: 1px solid ${({ theme }) => theme.primary};
-    padding: 1.7rem 1.5rem;
+  height: 3rem;
+  width: 100%;
+  background: #fff;
+  border: 1px solid ${({ theme }) => theme.primary};
+  padding: 1.7rem 1.5rem;
+  color: ${({ theme }) => theme.secondary};
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  outline: none;
+  transition: 0.5s;
+  display: flex;
+
+  &:focus {
+    border-color: ${({ theme }) => theme.secondary};
+  }
+
+  &::placeholder {
     color: ${({ theme }) => theme.secondary};
-    border-radius: 0.5rem;
-    font-size: 1.2rem;
-    outline: none;
-    transition: 0.5s;
-    display: flex;
+  }
 
-
-    &:focus {
-        border-color: ${({ theme }) => theme.secondary};
-    }
-
-    &::placeholder {
-        color: ${({ theme }) => theme.secondary};
-    }
-
-    @media (max-width: 450px) {
-        padding: 1.4rem;
-        font-size: 1rem;
-    }    
+  @media (max-width: 450px) {
+    padding: 1.4rem;
+    font-size: 1rem;
+  }
 `;
 
 export const TextArea = styled.textarea`
-    height: 10rem;
-    width: 100%
-    background: ${({ theme }) => theme.inputBackground};
-    border: 1px solid ${({ theme }) => theme.primary};
-    padding: 1.7rem 1.5rem;
+  height: 10rem;
+  width: 100%;
+  background: #fff;
+  border: 1px solid ${({ theme }) => theme.primary};
+  padding: 1.7rem 1.5rem;
+  color: ${({ theme }) => theme.secondary};
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  outline: none;
+  transition: 0.5s;
+  resize: none;
+  grid-column: 1 / 3;
+
+  &:focus {
+    border-color: ${({ theme }) => theme.secondary};
+  }
+
+  &::placeholder {
     color: ${({ theme }) => theme.secondary};
-    border-radius: 0.5rem;
-    font-size: 1.2rem;
-    outline: none;
-    transition: 0.5s;
-    resize: none;
-    grid-column: 1 / 3;
+  }
 
-    &:focus {
-        border-color: ${({ theme }) => theme.secondary};
-    }
+  @media (max-width: 700px) {
+    grid-column: 1;
+  }
 
-    &::placeholder {
-        color: ${({ theme }) => theme.secondary};
-    }
-
-    @media (max-width: 700px) {
-      grid-column: 1;
-    }
-    
-    @media (max-width: 450px) {
-      padding: 1.4rem;
-      font-size: 1rem;
-    }
+  @media (max-width: 450px) {
+    padding: 1.4rem;
+    font-size: 1rem;
+  }
 `;
