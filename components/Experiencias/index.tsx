@@ -10,19 +10,14 @@ function Experiencias() {
       </h1>
       <section>
         <ExperienciaItem
-          title="Experiência"
-          description="Um pouco sobre minha experiência profissional atual"
-          text="Atuo como suporte avançado de nível 2. Já atuei durante 1 ano e 7 meses na mesma empresa como analista de nível 1, onde também ocupei a posição de back de supervisão e ponto focal. Em meu trabalho atual lido com tecnologias como Active Directory, Microsoft Intune, Microsoft Azure e VMWare Horizon, atuo também com Office, Windows, servidores de impressão e de arquivos, entre outros."
-        />
-        <ExperienciaItem
-          title="Objetivo"
-          description="O que eu quero?"
-          text="Busco minha primeira oportunidade como desenvolvedora Front-end Júnior, para colocar minhas habilidades em prática e desenvolver aplicações inteligentes, acessíveis e intuitivas."
+          title="Experiências"
+          description="Um pouco sobre minha experiência profissional"
+          text="Atuei durante pouco mais de 1 ano com suporte técnico de nível 1, nesse período tive oportunidade de atuar como back de supervisão também. Trabalhei durante aproximadamente 7 meses com suporte técnico de nível 2, suporte avançado com Microsoft Office, Windows, servidores de impressão e arquivos, terminais virtuais, instalação de drivers e softwares. No momento estou atuando como desenvolvedora júnior, com automação, sustentação e desenvolvimento de aplicações."
         />
         <ExperienciaItem
           title="Motivação"
           description="O que me motiva?"
-          text="Quero usar minha experiência com o usuário final que obtenho trabalhando com suporte atualmente, para desenvolver visando a experiência do usuário, levando em conta que possivelmente essa pessoa usará minha aplicação para trabalhar, ou dependerá da mesma para desenvolver determinada função, por isso preciso me certificar de ser algo intuitivo e acessível."
+          text="Quero usar minha experiência com o usuário final que obtive trabalhando com suporte técnico, para desenvolver visando a experiência do usuário, levando em conta que possivelmente essa pessoa usará minha aplicação para trabalhar, ou dependerá da mesma para desenvolver determinada função, por isso preciso me certificar de ser algo intuitivo e acessível."
         />
       </section>
     </Container>
