@@ -12,10 +12,10 @@ export function HomeHero() {
         </TextContainer>
         <InfosContainer>
           <CodeItem data-aos="zoom-in">
-            <span className="comment">// Buscando por vagas como</span>
+            <span className="comment">// Quem sou eu?</span>
             <span className="purple">Infos</span> {'\u007B'}
             <div>
-              Objetivo: <span className="blue">Desenvolvedora Front-end,</span>
+              Função: <span className="blue">Desenvolvedora Front-end.,</span>
             </div>
             <div>
               Nível: <span className="blue">Júnior</span>
@@ -23,21 +23,17 @@ export function HomeHero() {
             {'\u007D'}
           </CodeItem>
           <CodeItem data-aos="zoom-in">
-            <span className="purple">Experiência</span> {'\u007B'}
+            <span className="purple">Formação</span> {'\u007B'}
             <div>
-              Cargo: <span className="blue">Suporte técnico II,</span>
+              Técnico: <span className="blue">Informática (Concluído),</span>
             </div>
             <div>
-              Empresa: <span className="blue">Indra Company,</span>
-              <div>
-                <span>
-                  Tempo: <span className="blue">1 ano e 9 meses (Atual)</span>
-                </span>
-              </div>
+              Superior:{' '}
+              <span className="blue">Sistemas de informação (Cursando),</span>
             </div>
             {'\u007D'}
             <span className="secondComment">
-              /* Estou em transição de carreira */
+              /* Realizo cursos livres de programação */
             </span>
           </CodeItem>
         </InfosContainer>
