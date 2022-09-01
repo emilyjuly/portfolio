@@ -25,11 +25,10 @@ export function HomeHero() {
           <CodeItem data-aos="zoom-in">
             <span className="purple">Formação</span> {'\u007B'}
             <div>
-              Técnico: <span className="blue">Informática (Concluído),</span>
+              Técnico: <span className="blue">Informática,</span>
             </div>
             <div>
-              Superior:{' '}
-              <span className="blue">Sistemas de informação (Cursando),</span>
+              Superior: <span className="blue">Sistemas de informação,</span>
             </div>
             {'\u007D'}
             <span className="secondComment">

@@ -5,7 +5,8 @@ export const Container = styled.section``;
 export const FormContainer = styled.form`
   margin-top: 8rem;
   width: 100%;
-  display: grid;
+  display: flex;
+  flex-direction: column;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
 

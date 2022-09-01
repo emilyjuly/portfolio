@@ -2,7 +2,7 @@ import { ItemContainer } from './styles';
 
 interface ExperienciaProps {
   title: string;
-  description: string;
+  description?: string;
   text: string;
 }
 

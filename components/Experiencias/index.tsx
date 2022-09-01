@@ -11,7 +11,6 @@ function Experiencias() {
       <section>
         <ExperienciaItem
           title="Experiências"
-          description="Um pouco sobre minha experiência profissional"
           text="Atuei durante pouco mais de 1 ano com suporte técnico de nível 1, nesse período tive oportunidade de atuar como back de supervisão também. Trabalhei durante aproximadamente 7 meses com suporte técnico de nível 2, suporte avançado com Microsoft Office, Windows, servidores de impressão e arquivos, terminais virtuais, instalação de drivers e softwares. No momento estou atuando como desenvolvedora júnior, com automação, sustentação e desenvolvimento de aplicações."
         />
         <ExperienciaItem
