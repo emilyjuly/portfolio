@@ -1,4 +1,3 @@
-import { darken } from 'polished';
 import styled from 'styled-components';
 
 interface ProjetoProps {
@@ -11,7 +10,6 @@ export const Container = styled.section`
   flex-direction: column;
   align-items: center;
   gap: 5rem;
-
   padding-bottom: 8rem;
   border-bottom: 3px solid ${({ theme }) => theme.primary};
 
@@ -21,7 +19,7 @@ export const Container = styled.section`
     flex-direction: column;
     gap: 4rem;
 
-    @media {
+    @media (max-width: 500px) {
       gap: 2rem;
     }
   }
@@ -120,8 +118,10 @@ export const ProjetoContainer = styled.div<ProjetoProps>`
     background: url(${props => props.imgUrl}) no-repeat center;
     background-size: cover;
     position: relative;
+    border-radius: 10px;
 
     > div.overlay {
+      border-radius: 10px;
       position: absolute;
       width: 100%;
       height: 100%;
