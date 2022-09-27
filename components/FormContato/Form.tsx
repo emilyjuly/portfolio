@@ -61,6 +61,7 @@ export default function Form() {
       />
       <Input
         placeholder="E-mail *"
+        type="email"
         value={email}
         onChange={({ target }) => setEmail(target.value)}
       />
