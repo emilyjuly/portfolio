@@ -6,6 +6,9 @@ import todolist from '../../img/todolist.png';
 import justcats from '../../img/justcats.png';
 import flexturismos from '../../img/flexturismos.png';
 import upsidedown from '../../img/upsidedown.png';
+import suits from '../../img/suits.png';
+import recommendations from '../../img/recommendations.png';
+import portfolio from '../../img/portfolio.png';
 
 export default function Projetos() {
   return (
@@ -26,17 +29,28 @@ export default function Projetos() {
             content="Nesta seção eu mostro alguns de meus principais projetos já realizados durante minha trajetória."
           />
         </Head>
-        <ProjetoItem title="To-do list" slug="todolist" imgUrl={todolist} />
-        <ProjetoItem title="Just cats" slug="justcats" imgUrl={justcats} />
+        <ProjetoItem imgUrl={suits} title="Suits" slug="Suits" />
         <ProjetoItem
-          title="Flex turismos"
-          slug="flexturismos"
-          imgUrl={flexturismos}
+          imgUrl={recommendations}
+          title="Recommendations page"
+          slug="Recommendations"
         />
         <ProjetoItem
+          imgUrl={portfolio}
+          title="Portfólio Pessoal"
+          slug="Portfólio"
+        />
+        <ProjetoItem
+          imgUrl={upsidedown}
           title="Upside Down"
           slug="upsidedown"
-          imgUrl={upsidedown}
+        />
+        <ProjetoItem imgUrl={todolist} title="To-do list" slug="todolist" />
+        <ProjetoItem imgUrl={justcats} title="Just cats" slug="justcats" />
+        <ProjetoItem
+          imgUrl={flexturismos}
+          title="Flex Turismos"
+          slug="flex turismos"
         />
       </main>
     </ProjetosContainer>
