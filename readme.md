@@ -1,6 +1,6 @@
 ### Welcome to the repository of my personal portfolio <img src="https://images.emojiterra.com/google/android-11/512px/1f49c.png" alt="coração roxo" width="20" height="20"/>
 
-### <a href="https://personal-portfolio-emilyjuly.vercel.app" target="_blank">Click here to access</a>
+### <a href="https://portfolio-emilyjuly.vercel.app" target="_blank">Click here to access</a>
 
 #### This page was produced using Nextjs <br> <img src="https://cdn.aglty.io/bwql7jyk/Attachments/NewItems/image_20211214122557_0.png" alt="nextjs" width="40" height="40"/>
 
